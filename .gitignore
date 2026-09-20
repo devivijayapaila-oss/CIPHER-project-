@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Generated output
+security_events.jsonl
+data/security_events.jsonl
+notebooks/security_events.jsonl
+
+# Old/duplicate model files in project root
+/autoencoder_model.h5
+/binary_xgboost_classifier.json
+/improved_autoencoder_model.h5
+/label_encoder.pkl
+/label_encoder_final.pkl
+/scaler.pkl
+/xgboost_classifier.json
+/xgboost_multiclass_final.json
+
+# Accidental model copies inside notebooks
+/notebooks/*.h5
+/notebooks/*.pkl
+/notebooks/*.json
+
+# Raw CIC-IDS datasets
+/data/*.csv
+
+# VS Code / OS
+.vscode/
+.DS_Store
+Thumbs.db
